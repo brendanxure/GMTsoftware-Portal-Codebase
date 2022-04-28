@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-heading {
+  text-align: left;
+  font: normal normal bold 25px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 100%;
+}
+
+.nametag {
+  color: #ff0000;
+  opacity: 100%;
+}
+
+.portal-tag {
+  font: normal normal bold 16px Lato;
+  letter-spacing: 0px;
+  color: #090000;
+  opacity: 1;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.login-btn {
+  background: #ff0000;
+  border-radius: 15px;
+  font: normal normal bold 16px Lato;
+  line-height: 5px;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  color: #ffffff;
+  background: #c70303;
+}
+
+.create-account {
+  font: normal normal bold 16px Lato;
+  color: #090000;
+  padding-top: 20px;
+}
+
+.sign-up-link {
+  color: #ff0000;
+  text-decoration: none;
+  font: normal normal bold 20px Lato;
+}
+
+.sign-up-link:hover {
+  color: #c70303;
+}

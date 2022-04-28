@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.login-form{
+    margin: 80px;
+}
+.btn-primary{
+    border-radius: 8px;
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+.btn-primary:hover{
+    background-color: #eb0a0a;
+}
